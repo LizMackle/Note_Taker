@@ -13,18 +13,19 @@ function retrieveNotes(){
     return JSON.parse(fs.readFileSync(dbPath, "utf-8") || "[]");
 }
 
-function saveNotes(notes){
+function saveNotes(notes) {
     fs.writeFileSync(dbPath, JSON.stringify(notes), "utf-8");
 }
-router.get("/api/notes", (req, res) => {
+
+router.get("/notes", (req, res) => {
     const notes = retrieveNotes();
     console.log(notes);
     res.json(notes); // send them back
 });
 
 
-router.post("/api/notes", (req, res) => {
-    const {title, text} = req.body;
+router.post("/notes", (req, res) => {
+    const { title, text } = req.body;
     console.log(title, text);
     // creates a new note in db json
     const newNote = {
@@ -42,7 +43,7 @@ router.post("/api/notes", (req, res) => {
     res.json(newNote);
 });
 
-router.delete("/api/notes:id", (req, res) => {
+router.delete("/notes:id", (req, res) => {
     const notes = retrieveNotes();
     // filters to target note
     const filtered = notes.filter((note) => note.id !== req.params.id);

@@ -14,7 +14,6 @@ app.use(webRoutes);
 app.use('/api', apiRoutes);
 
 app.get('*', (req, res) => {
-    console.log('test')
     const htmlPath = path.join(__dirname,  "public", 'index.html');
     res.sendFile(htmlPath);
 })

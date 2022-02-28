@@ -5,7 +5,8 @@
 An application created that can write and save user notes to keep track of tasks to be completed.
 
 ![Note Taker Landing page](https://user-images.githubusercontent.com/93589073/155947270-658764be-83f6-431b-82c8-57a35a459fa5.PNG)
-![Example](https://user-images.githubusercontent.com/93589073/155953605-9c2be5c3-da17-4254-8390-b7f72582af1c.PNG)
+![Note examples](https://user-images.githubusercontent.com/93589073/155955219-ea4ef672-ba69-4976-beab-3073d7cb5a25.PNG)
+
 
 ## Table of Contents
   - [Description](#description)

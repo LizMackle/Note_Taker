@@ -2,7 +2,9 @@
 ![License](https://img.shields.io/badge/License-Mozilla-lightgrey)
 
 ## Description
-An application created that can write and save user notes. 
+An application created that can write and save user notes to keep track of tasks to be completed.
+
+![Note Taker Landing page](https://user-images.githubusercontent.com/93589073/155947270-658764be-83f6-431b-82c8-57a35a459fa5.PNG)
 
 ## Table of Contents
   - [Description](#description)

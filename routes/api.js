@@ -30,8 +30,8 @@ router.post("/notes", (req, res) => {
     // creates a new note in db json
     const newNote = {
         id: uuid.v4(),
-        title,
-        text,
+        title: title,
+        text: text,
     };
     // get all the existing notes in db json
     const existingNotes = retrieveNotes();

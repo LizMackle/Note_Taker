@@ -14,7 +14,11 @@ An application created that can write and save user notes to keep track of tasks
   - [Questions](#questions)
 
 ## Installation
-Run “npm install” in the terminal after cloning Github repository.
+Clone the Github repository:<br>
+`https://github.com/LizMackle/Note_Taker.git`
+
+Install all dependencies required for application:<br>
+`npm install` from the root directory.
 
 ## Usage
 To use this app, use the following command in the terminal:

@@ -17,7 +17,9 @@ An application created that can write and save user notes to keep track of tasks
 Run “npm install” in the terminal after cloning Github repository.
 
 ## Usage
-To use this app, run "node server.js" in the terminal.
+To use this app, use the following command in the terminal:
+
+`node server.js`
 #### [Deployed Link](https://note-taker-lm.herokuapp.com/)
 
 ![Note Taker Landing page](https://user-images.githubusercontent.com/93589073/155947270-658764be-83f6-431b-82c8-57a35a459fa5.PNG)
